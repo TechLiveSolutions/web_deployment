@@ -1,0 +1,22 @@
+sudo apt-get updat                  e(Update apt)
+sudo apt-get install mysql-server      (Install MySQL)
+sudo mysql_secure_installation      (MySQL Secure Installation)
+sudo apt-get install apache2                (Install Apache)
+sudo apt-get install php libapache2-mod-php (Install PHP)
+sudo systemctl restart apache2              (Restart Apache) 
+sudo apt-get install phpmyadmin php-mbstring (Install phpMyAdmin)
+sudo a2enconf phpmyadmin.conf               (Enable phpMyAdmin)
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf  
+sudo a2enconf phpmyadmin.conf (Enable phpMyAdmin)
+sudo systemctl restart apache2 (restart apache)
+sudo mysql (Login Mysql) 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'StrongP@ssw0rd!'; (Change phpMyAdmin Password)
+sudo a2disconf phpmyadmin.conf (Disable phpMyAdmin)
+sudo systemctl restart apache2 
+sudo chown ubuntu /var/www/html(Enable File Permission)
+sudo apt install certbot python3-certbot-apache (Free SSL)
+sudo certbot --apache -d test.domain.com -d www.test.domain.com
+
+
+
+
