@@ -1,4 +1,4 @@
-sudo apt-get updat                  e(Update apt)
+sudo apt-get update              e(Update apt)
 sudo apt-get install mysql-server      (Install MySQL)
 sudo mysql_secure_installation      (MySQL Secure Installation)
 sudo apt-get install apache2                (Install Apache)
